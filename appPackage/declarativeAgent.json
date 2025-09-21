@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.4/schema.json",
+  "version": "v1.4",
+  "name": "Daily Productivity Briefing",
+  "description": "Declarative agent created with Microsoft 365 Agents Toolkit",
+  "instructions": "$[file('instruction.txt')]",
+  "conversation_starters": [
+    {
+      "title": "Plan my day",
+      "text": "Help me plan my day"
+    },
+    {
+      "title": "Give me my productivity briefing",
+      "text": "Give me my productivity briefing"
+    },
+    {
+      "title": "What’s on my agenda today?",
+      "text": "What’s on my agenda today?"
+    },
+    {
+      "title": "Catch me up on yesterday",
+      "text": "Catch me up on yesterday"
+    },
+    {
+      "title": "Suggest tasks based on my recent meetings",
+      "text": "Suggest tasks based on my recent meetings"
+    },
+    {
+      "title": "Summarize everything in a Teams card",
+      "text": "Summarize everything in a Teams card"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.21/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.21",
+  "version": "1.0.0",
+  "id": "${{TEAMS_APP_ID}}",
+  "developer": {
+    "name": "Teams App, Inc.",
+    "websiteUrl": "https://www.example.com",
+    "privacyUrl": "https://www.example.com/privacy",
+    "termsOfUseUrl": "https://www.example.com/termofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Daily Productivity Briefing",
+    "full": "Daily Productivity Briefing"
+  },
+  "description": {
+    "short": "Help with daily productivity briefing summary and intelligent suggestions.",
+    "full": "An AI-powered assistant that provides daily productivity briefings and intelligent suggestions based on your recent activities."
+  },
+  "accentColor": "#FFFFFF",
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "copilotAgents": {
+    "declarativeAgents": [
+      {
+        "id": "adDailyProductivityBriefing",
+        "file": "declarativeAgent.json"
+      }
+    ]
+  },
+  "validDomains": []
+}
